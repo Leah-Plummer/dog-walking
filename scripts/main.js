@@ -21,7 +21,6 @@ const applicationHTML = `
         ${RegisteredPets()}
     </section>
 </article>
-
 <article class="assignments">
     <h2>Current Assignments</h2>
     ${Assignments()}
@@ -29,4 +28,3 @@ const applicationHTML = `
 `
 
 mainContainer.innerHTML = applicationHTML
-
