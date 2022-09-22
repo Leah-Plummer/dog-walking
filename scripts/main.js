@@ -2,6 +2,7 @@ import { Walkers } from "./Walkers.js"
 import { CityList } from "./CityList.js"
 import { Assignments } from "./Assignments.js"
 import { RegisteredPets } from "./RegisteredPets.js"
+import { getCities, getWalkerCities } from "./database.js"
 
 const mainContainer = document.querySelector("#container")
 
@@ -28,3 +29,4 @@ const applicationHTML = `
 `
 
 mainContainer.innerHTML = applicationHTML
+
